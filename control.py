@@ -52,8 +52,7 @@ def open_this_pc():
     # Open "This PC" on Windows
     pyautogui.hotkey('win', 'e')
     time.sleep(1)
-    #pyautogui.write('This PC')
-    #pyautogui.press('enter')
+   
 
 def  Minimize():
     pyautogui.hotkey('win', 'down')
@@ -63,8 +62,7 @@ def  Minimize():
 def  Close_active_window():
     pyautogui.hotkey('alt', 'f4')
     time.sleep(1)
-    #pyautogui.write('Close active window')
-    #pyautogui.press('enter') 
+ 
 
 def  go_back():
     pyautogui.hotkey('alt', 'left')
